@@ -12,11 +12,10 @@ To use the Image Middleware in your ASP.NET Core application, you can add the fo
 and add ImageMiddleware class to your project that is inside Middleware folder
 
 # Options
-The following query-string parameters are available when requesting an image:
-
-width: The width of the image to resize or crop.
-height: The height of the image to resize or crop.
-x: The operation to perform on the image (either "resize" or "crop").
+The following query-string parameters are available when requesting an image:  
+width: The width of the image to resize or crop.  
+height: The height of the image to resize or crop.  
+x: The operation to perform on the image (either "resize" or "crop").  
 
 # Examples
 and finaly whenerver you send request to static image file with special parameters this middleware will be invoked
