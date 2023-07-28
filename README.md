@@ -5,8 +5,8 @@ Installation
 To use the Image Middleware in your ASP.NET Core application, you can add the following line of codes inside of Program.cs
 
 <pre>
-  app.UseMiddleware<ImageMiddleware>();
-  app.UseStaticFiles();
+  `app.UseMiddleware<ImageMiddleware>();`
+  `app.UseStaticFiles();`
 </pre>
 
 and add ImageMiddleware class to your project that is inside Middleware folder
