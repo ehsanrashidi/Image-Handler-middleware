@@ -4,9 +4,10 @@ This is an ASP.NET Core middleware that handles and resizes image requests. It a
 Installation
 To use the Image Middleware in your ASP.NET Core application, you can add the following line of codes inside of Program.cs
 
- `app.UseMiddleware<ImageMiddleware>();`
-  `app.UseStaticFiles();`
-
+<pre>
+  app.UseMiddleware<ImageMiddleware>();
+  app.UseStaticFiles();
+</pre>
 and add ImageMiddleware class to your project that is inside Middleware folder
 
 # Options
