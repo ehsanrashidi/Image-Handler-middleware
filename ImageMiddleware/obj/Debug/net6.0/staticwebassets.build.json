@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "0ho0HSrOMWJTHPGg8SE9B+MzZtAnVR7UDIqTMedeTas=",
+  "Source": "ImageMiddleware",
+  "BasePath": "_content/ImageMiddleware",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ImageMiddleware\\wwwroot",
+      "Source": "ImageMiddleware",
+      "ContentRoot": "H:\\Examples\\ImageMiddleware\\ImageMiddleware\\wwwroot\\",
+      "BasePath": "_content/ImageMiddleware",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "H:\\Examples\\ImageMiddleware\\ImageMiddleware\\wwwroot\\Images\\image.jpg",
+      "SourceId": "ImageMiddleware",
+      "SourceType": "Discovered",
+      "ContentRoot": "H:\\Examples\\ImageMiddleware\\ImageMiddleware\\wwwroot\\",
+      "BasePath": "_content/ImageMiddleware",
+      "RelativePath": "Images/image.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\image.jpg"
+    }
+  ]
+}
