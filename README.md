@@ -23,6 +23,7 @@ and finaly whenerver you send request to static image file with special paramete
 here is examples :
 
 1- crop : https://localhost:7130/Images/image.jpg?x=crop&width=100&height=100
+
 2- resize : https://localhost:7130/Images/image.jpg?width=150&height=300
 
 # License
